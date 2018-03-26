@@ -3,4 +3,6 @@
 </h1>
 <div [class.done]="isDone" [style.font-size.em]="isDone ? 3 : 1">UPC</div>
 <div [class.first]="isFirst">First task</div>
+<input [(value)]="title"/>
+<button (click)="logTitle()">Log title</button>
 

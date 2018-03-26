@@ -9,4 +9,9 @@ export class AppComponent {
   title = 'app works!';
   isDone = true;
   isFirst = true;
+
+  logTitle(): void {
+    //this.title = this.title + ' x';
+    console.log(this.title);
+  }
 }
